@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    Tic Tac Toe
+    <!-- START -->
+    <div id="front">
+        <p>Player 1 : choose one of them to begin with</p>
+        <div id="choice">
+            <button id="xc">X</button>
+            <button id="oc">O</button>
+        </div>
+    </div>
+
+    <!-- turn -->
+    <div class="player">
+        <p id="px">X's turn</p>
+        <p id="po">O's turn</p>
+    </div>
+
+
+    <!-- BOARD -->
+
+    <div id="main">
+        <div id="main1" class="board">
+            <span id="0" class="ele"></span>
+            <span id="1" class="ele"></span>
+            <span id="2" class="ele"></span>
+        </div>
+        <div id="main2" class="board">
+            <span id="3" class="ele"></span>
+            <span id="4" class="ele"></span>
+            <span id="5" class="ele"></span>
+        </div>
+        <div id="main3" class="board">
+            <span id="6" class="ele"></span>
+            <span id="7" class="ele"></span>
+            <span id="8" class="ele"></span>
+        </div>
+    </div>
+
+
+    <!-- END -->
+    <div class="end" id="last">
+        <p id="txt">Match ended</p>
+        <br>
+        <button id="restart" onclick="history.go(0)">Replay</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

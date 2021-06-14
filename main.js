@@ -3,10 +3,28 @@ let ch = 0;
 let tc = 0;
 let f = "X";
 let s = "O";
+document.getElementById('one').addEventListener("click", player1);
+document.getElementById("two").addEventListener("click", player2);
+
+function player1() {
+    document.getElementById('no_of_player').style.display = "none";
+    document.getElementById('player1game').style.display = "block";
+}
+
+function yes() {
+    document.getElementById('player1game').style.display = "none";
+    document.getElementById('front').style.display = "block";
+}
+
+
+function player2() {
+    document.getElementById('no_of_player').style.display = "none";
+    document.getElementById('front').style.display = "block";
+}
+
 
 document.getElementById('xc').addEventListener("click", choose_X);
 document.getElementById("oc").addEventListener("click", choose_O);
-
 function choose_X() {
     ch = ch + 1;
     if (ch == 1) {
@@ -31,9 +49,6 @@ function choose_O() {
         document.getElementById('po').style.backgroundColor = "snow";
     }
 }
-
-
-
 
 document.getElementById('0').addEventListener("click", fill0, true);
 document.getElementById("1").addEventListener("click", fill1, true);

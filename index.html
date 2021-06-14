@@ -14,8 +14,29 @@
 
 <body>
 
+
     Tic Tac Toe
-    <!-- START -->
+
+    <!-- one player / two player  -->
+    <div id="no_of_player">
+        <p id="ques">How do you want to play ?</p>
+        <div id="no_choice">
+            <button id="one">One Player</button>
+            <button id="two">Two Player</button>
+        </div>
+    </div>
+
+    <!-- one player -->
+    <div id="player1game">
+        <p class="coming">Coming Soon</p>
+        <p class="coming">Wanna play two player game ?</p>
+        <div id="yes_no">
+            <button id="yes" onclick="yes()">Yes</button>
+            <button id="no" onclick="history.go(0)">No</button>
+        </div>
+    </div>
+
+    <!-- choosing x/o -->
     <div id="front">
         <p>Player 1 : choose one of them to begin with</p>
         <div id="choice">
@@ -52,12 +73,13 @@
     </div>
 
 
-    <!-- END -->
+    <!-- Result -->
     <div class="end" id="last">
         <p id="txt">Match ended</p>
         <br>
         <button id="restart" onclick="history.go(0)">Replay</button>
     </div>
+
 
     <script src="main.js"></script>
 </body>

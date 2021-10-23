@@ -14,9 +14,7 @@
 
 <body>
 
-    <span>
-        Tic-Tac-Toe
-    </span>
+    Tic-Tac-Toe
 
     <!-- one player / two player  -->
     <div id="no_of_player">
@@ -27,15 +25,18 @@
         </div>
     </div>
 
+
+    <!-- if one player game is not available -->
+    
     <!-- one player -->
-    <div id="player1game">
+    <!-- <div id="player1game">
         <p class="coming">Coming Soon</p>
         <p class="coming">Wanna play two player game ?</p>
         <div id="yes_no">
             <button id="yes" onclick="yes()">Yes</button>
             <button id="no" onclick="history.go(0)">No</button>
         </div>
-    </div>
+    </div> -->
 
     <!-- choosing x/o -->
     <div id="front">
@@ -78,9 +79,9 @@
     <!-- Result -->
     <div class="end" id="last">
         <p id="txt">Match ended</p>
-        <div>
+        <p>
             <button id="restart" onclick="history.go(0)">Replay</button>
-        </div>
+        </p>
     </div>
 
 

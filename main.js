@@ -40,7 +40,8 @@ function choose_X() {
         document.getElementById('front').style.display = "none";
         document.getElementById('main').style.display = "block";
         document.getElementById('px').style.display = "block";
-        document.getElementById('px').style.backgroundColor = "snow";
+        document.getElementById('po').style.display = "block";
+        document.getElementById('px').style.backgroundColor = "white";
     }
 }
 function choose_O() {
@@ -51,8 +52,9 @@ function choose_O() {
         tc = 1;
         document.getElementById('front').style.display = "none";
         document.getElementById('main').style.display = "block";
+        document.getElementById('px').style.display = "block";
         document.getElementById('po').style.display = "block";
-        document.getElementById('po').style.backgroundColor = "snow";
+        document.getElementById('po').style.backgroundColor = "white";
     }
 }
 
@@ -67,15 +69,17 @@ function chance(id) {
 
     if (tc % 2 == 0) {
         tc = tc + 1;
-        document.getElementById('px').style.display = "none";
+        document.getElementById('px').style.display = "block";
         document.getElementById('po').style.display = "block";
-        document.getElementById('po').style.backgroundColor = "snow";
+        document.getElementById('po').style.background = "white";
+        document.getElementById('px').style.background = "none";
     }
     else if (tc % 2 != 0) {
         tc = tc + 1;
-        document.getElementById('po').style.display = "none";
+        document.getElementById('po').style.display = "block";
         document.getElementById('px').style.display = "block";
-        document.getElementById('px').style.backgroundColor = "snow";
+        document.getElementById('px').style.background = "white";
+        document.getElementById('po').style.background = "none";
     }
 
 

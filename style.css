@@ -196,6 +196,8 @@ body{
     display: none;
     /* display: inline; */
     margin: auto;
+    margin-top: 10px;
+    padding: 5px;
     height: 60px;
     width: 200px;
     font-size: 50px;

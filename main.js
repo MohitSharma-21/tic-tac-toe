@@ -11,6 +11,8 @@ document.getElementById("two").addEventListener("click", player2);
 document.getElementById('xc').addEventListener("click", choose_X);
 document.getElementById("oc").addEventListener("click", choose_O);
 
+// No of player choice
+
 function player1() {
     ai = 1;
     document.getElementById('no_of_player').style.display = "none";
@@ -26,6 +28,8 @@ function yes() {
     document.getElementById('player1game').style.display = "none";
     document.getElementById('front').style.display = "block";
 }
+
+// Choice of X or O
 
 function choose_X() {
     ch = ch + 1;
@@ -51,6 +55,9 @@ function choose_O() {
         document.getElementById('po').style.backgroundColor = "snow";
     }
 }
+
+
+// Filling boxes
 
 function chance(id) {
 
@@ -93,6 +100,8 @@ function chance(id) {
         check(id);
     }
 }
+
+// one player game
 
 function aiTurn(id) {
 

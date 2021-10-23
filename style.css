@@ -175,16 +175,24 @@ body{
 
      /* turn */
 .player{
-    display: inline;
+    /* display: inline; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* justify-content: space-around; */
 }
 #px,#po{
     display: none;
     /* display: inline; */
-    margin: auto;
-    margin-top: 10px;
-    padding: 5px;
-    height: 60px;
-    width: 200px;
+    /* margin: auto; */
+    margin-top: 1px;
+    padding: 10px;
+    /* border: 2px solid red; */
+    margin: 1px;
+    /* height: 60px; */
+    /* width: 200px; */
     font-size: 50px;
     border-radius: 4px;
 }

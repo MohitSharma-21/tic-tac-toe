@@ -95,13 +95,9 @@ body{
         display: flex;
         flex-direction: row;
         text-align: center;
-        /* border: 2px solid red;  */
          width: 500px;
         height: 100px;
         margin: auto; 
-
-        /* margin-top: 35px; */
-        /* margin-left: 40px; */
     }
     #yes,#no{
         display: inline-block;
@@ -113,9 +109,6 @@ body{
         font-size: 50px;
         text-align: center;
         text-shadow: 5px 5px 3px white;
-        /* border: 2px solid red;  */
-        /* margin: auto; */
-        /* margin-top: -10px; */
         width: 300px;
         height: 90px;
         margin: auto;    
@@ -131,7 +124,6 @@ body{
 /* START */
 
 #front{
-        /* display: flex; */
         display: none;
         background-color: rgb(173, 173, 173);
         border: 2px solid rgb(173, 173, 173);
@@ -141,8 +133,6 @@ body{
         font-family: 'Righteous', cursive;
         text-align: center;
         margin: auto;
-        /* margin-left: 400px; */
-        /* margin-right: 400px; */
         margin-top: 50px;
         box-shadow: 6px 6px 3px white,-6px -6px 3px white;
     }
@@ -152,15 +142,10 @@ body{
 #choice{
         display: flex;
         flex-direction: row;
-        text-align: center;
-        /* border: 2px solid red; */ 
+        text-align: center; 
          width: 250px;
         height: 100px;
         margin: auto; 
-        /* margin-top: -15px; */
-        /* margin-left: 40px; */
-
-
     } 
     #xc,#oc{
         display: inline-block;
@@ -203,10 +188,6 @@ body{
     font-size: 50px;
     border-radius: 4px;
 }
-/* #px:hover,#po:hover{
-    background-color: snow;
-} */
-
 
 
 /* BOARD */
@@ -220,7 +201,7 @@ body{
     margin-top: 30px;
     border: 2px solid rgb(109, 109, 109);
     border-radius: 3px;
-    box-shadow: 2px 2px 8px rgb(65, 65, 65), -2px -2px 8px rgb(65, 65, 65);
+    box-shadow: 2px 2px 8px rgb(65, 65, 65), -2px -2px 20px rgb(65, 65, 65);
 
 }
 .board{
@@ -246,11 +227,11 @@ body{
 }
 .ele:hover{
         cursor: pointer;
-        background-color: rgb(204, 230, 199);
+        background-color: rgb(223, 223, 223);
     }
 
 .ele:active{
-    background-color: snow;
+    background-color: rgb(255, 255, 255);
     width: 118px;
     height: 118px;
 }
@@ -280,8 +261,8 @@ body{
         /* border: 2px solid red; */
         border-radius: 3px;
         /* text-align: center; */
-        margin-top: 0px;
         margin: auto;
+        margin-top: 20px;
         /* margin-left: 180px; */
         width: 180px;
 
